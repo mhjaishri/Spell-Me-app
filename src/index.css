@@ -1,0 +1,19 @@
+html, body, #root { height: 100%; margin: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: #f3f4f6; }
+.container { max-width: 880px; margin: 36px auto; padding: 18px; background: white; border-radius: 10px; box-shadow: 0 6px 20px rgba(10,10,10,0.05); }
+.button { padding: 8px 12px; border-radius: 6px; cursor: pointer; }
+.input { width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid #d1d5db; }
+.suggestion { padding: 8px 10px; cursor: pointer; }
+.suggestion:hover { background: #f1f5f9; }
+.small { font-size: 14px; color: #475569; }
+.header { display:flex; justify-content:space-between; align-items:center; }
+.history-button { margin: 4px; padding: 6px 8px; border: 1px solid #e5e7eb; border-radius:6px; cursor:pointer; }
+
+/* --- NEW STYLES FOR MEANINGS --- */
+ul {
+  padding-left: 20px; /* Add space for the bullet points */
+  margin-top: 4px; /* Space out the list from the partOfSpeech */
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 6px; /* Space between definitions */
+}
